@@ -9,11 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, World!")
+  // MARK: - PROPERTIES
+  @State var showSplash:Bool = true
+  
+  // MARK: - BODY
+  var body: some View {
+    SplashScreen()
+      .opacity(showSplash ? 1 : 0)
+      .onAppear() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+          withAnimation() {
+            self.showSplash = false
+          }
+        }
     }
+  }
 }
 
+// MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

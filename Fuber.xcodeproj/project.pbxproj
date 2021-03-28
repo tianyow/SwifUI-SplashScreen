@@ -13,6 +13,7 @@
 		8CFD07932610341900B0EA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFD07922610341900B0EA94 /* Assets.xcassets */; };
 		8CFD07962610341900B0EA94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFD07952610341900B0EA94 /* Preview Assets.xcassets */; };
 		8CFD07992610341900B0EA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFD07972610341900B0EA94 /* LaunchScreen.storyboard */; };
+		8CFD07A1261034AD00B0EA94 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFD07A0261034AD00B0EA94 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8CFD07952610341900B0EA94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CFD07982610341900B0EA94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CFD079A2610341900B0EA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFD07A0261034AD00B0EA94 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				8CFD07972610341900B0EA94 /* LaunchScreen.storyboard */,
 				8CFD079A2610341900B0EA94 /* Info.plist */,
 				8CFD07942610341900B0EA94 /* Preview Content */,
+				8CFD07A0261034AD00B0EA94 /* SplashScreen.swift */,
 			);
 			path = Fuber;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CFD07A1261034AD00B0EA94 /* SplashScreen.swift in Sources */,
 				8CFD078D2610341800B0EA94 /* AppDelegate.swift in Sources */,
 				8CFD078F2610341800B0EA94 /* SceneDelegate.swift in Sources */,
 				8CFD07912610341800B0EA94 /* ContentView.swift in Sources */,
